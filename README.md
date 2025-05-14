@@ -1,20 +1,47 @@
-# EcoRutas
+# Ecorutas
 
-EcoRutas es una aplicación para la recolección de basura, diseñada para ser fácil de usar y facilitar la gestión de residuos en tu comunidad.
+**Ecorutas** is a digital platform developed as a university project to improve the waste collection process in *El Arenal, Jalisco*. It connects citizens with independent waste collectors to reduce garbage accumulation and improve environmental management.
 
-## Materiales
+## 🌱 Objective
 
-- **Firebase**: Utilizado como base de datos para almacenar la información.
-- **Android Studio**: Es necesario para visualizar y ejecutar el proyecto en dispositivos Android.
-- **Visual Studio**: Recomendado para el desarrollo de ciertas funcionalidades del proyecto.
+To create a simple and intuitive mobile platform that enables citizens to report garbage accumulation and allows independent drivers to collect it efficiently.
 
-## Extensiones
+## 🛠️ Technologies Used
 
-- **Dart**: Lenguaje de programación utilizado para desarrollar la aplicación.
-- **Flutter**: Framework de desarrollo utilizado para crear la interfaz y lógica de la aplicación.
+- **Flutter** & **Dart** – Mobile app development
+- **Firebase** – Authentication, Firestore database, and real-time features
 
-## Uso
+## ✨ Features
 
-1. Asegúrate de tener el proyecto guardado en una carpeta en tu computadora.
-2. Abre **Android Studio** y carga el proyecto.
-3. Ejecuta el proyecto. Esto debería abrir una ventana con una página donde podrás visualizar la aplicación en acción.
+- User and driver registration and management
+- Creation and visualization of garbage accumulation reports
+- Reports include description and geolocation
+- Real-time notifications between users and drivers (limited prototype)
+- Clean and user-friendly UI
+
+## 📍 Scope
+
+- Available only in *El Arenal, Jalisco* (initial version)
+- Manual route assignment
+- No payment system included (yet)
+- No waste classification or recycling implemented
+
+## 🚧 Limitations
+
+- Prototype version for academic use
+- No automatic routing
+- Service relies on the availability of independent drivers
+
+## 📁 Project Structure
+
+```bash
+lib/
+ ├── main.dart
+ ├── screens/
+ ├── models/
+ ├── services/
+ └── widgets/
+assets/
+firebase.json
+pubspec.yaml
+
